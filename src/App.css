@@ -1,0 +1,20 @@
+/* Basic styles for dark/light mode */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.dark-mode {
+    background-color: #212529;
+    color: #f8f9fa;
+}
+
+/* Adjust main content padding for fixed navbar */
+.py-3 {
+    padding-top: 70px !important; /* Adjust based on your navbar height */
+    padding-bottom: 1rem !important;
+}
